@@ -42,6 +42,7 @@ const HotelSchema = new mongoose.Schema({
     },
 
     Profile_photo: { type: String, required: true },
+     Cover_photo: { type: String, required: true },
 
     Service_type: { type: String, required: true }
 
